@@ -10,6 +10,13 @@ ul {
     margin: 0px;
 }
 
+#readtime {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
 body {
     background-color: #8ACE00;
 }
