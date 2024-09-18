@@ -6,6 +6,19 @@ h1 {
     margin: 0%;
 }
 
+#title {
+    justify-content: space-around;
+}
+
+#nav-ul {
+    font-family: 'arial narrow';
+}
+
+
+#main-content {
+    font-family: 'arial narrow';
+}
+
 ul {
     margin: 0px;
 }
@@ -19,9 +32,7 @@ ul {
 
 body {
     background-color: #8ACE00;
-}
-body {
-    font-family:'Arial Narrow';
+    font-family:'arial narrow regular';
     margin: 0px;
 }
 
@@ -29,7 +40,7 @@ body {
     margin: 0px;
     padding: 8px;
     color: white;
-    font-family: "arial", sans-serif;
+    font-family: "arial narrow regular", sans-serif;
     width: 16%;
     border-radius: 20%;
 }
@@ -86,6 +97,7 @@ form {
 
 h2 {
     text-align: center;
+    font-family:'Arial narrow', Helvetica, sans-serif;
 }
 
 body > footer {
@@ -97,6 +109,11 @@ color: black;
     justify-content: center;
     margin: auto;
     color: white;
+    font-family: 'arial narrow';
+}
+
+#para {
+    font-family: 'arial narrow';
 }
 
 img {
