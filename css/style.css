@@ -85,7 +85,8 @@ body > footer {
 }
 
 img {
-    border-radius: 10%;
+    border-radius: 5%;
+    scale: 0.1;
 }
 
 #footer-ul{
