@@ -66,6 +66,7 @@ body > main article {
 #main-content {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 #main-content > div {
@@ -81,7 +82,14 @@ h2 {
 }
 
 body > footer {
-    background-color: rgb(0, 0, 0);
+color: black;
+}
+
+#blockquote {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: white;
 }
 
 img {
@@ -95,7 +103,7 @@ img {
 }
 
 #footer-ul > div > li {
-    margin-left: 12px;
+    margin-left: 1px;
     }
 
 #footer-ul > div > li > a{
