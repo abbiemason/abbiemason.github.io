@@ -14,11 +14,6 @@ h1 {
     font-family: 'arial narrow';
 }
 
-
-#main-content {
-    font-family: 'arial narrow';
-}
-
 ul {
     margin: 0px;
 }
@@ -76,23 +71,18 @@ body > header > nav > ul {
     border-radius: 10%;
 }
 
-body > main article {
-    width: 60%;
-    margin: auto;
-}
-
 #main-content {
     display: flex;
-    justify-content: space-around;
+    font-family: 'arial narrow';
+    justify-content: center;
     align-items: center;
-}
-
-#main-content > div {
-    width: 70%;
+    width: 60%;
+    margin: auto
 }
 
 form {
     text-align: center;
+    font-family: 'arial narrow';
 }
 
 h2 {
@@ -135,9 +125,11 @@ img {
 #footer-ul > div > li > a{
     color: rgb(255, 255, 255);
     text-decoration: none;
+    font-family: 'arial narrow'
     ;
 }
 
 footer {
     background-color: black;
+    font-family: 'arial narrow';
 }
