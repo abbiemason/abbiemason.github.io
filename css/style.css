@@ -100,8 +100,10 @@ color: black;
 }
 
 img {
-    border-radius: 5%;
-    scale: 0.1;
+    scale: 60%;
+    align-items: center;
+    margin: auto;
+    
 }
 
 #footer-ul{
@@ -114,6 +116,11 @@ img {
     }
 
 #footer-ul > div > li > a{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    ;
+}
+
+footer {
+    background-color: black;
 }
