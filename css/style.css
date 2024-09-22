@@ -131,6 +131,7 @@ html, body {
     #cite {
         margin-top: 15px;
         font-size: medium;
+        font-style: oblique;
         font-weight: lighter;
 
     }
