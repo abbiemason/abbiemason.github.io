@@ -107,18 +107,22 @@ html, body {
 
     #blockquote {
         display: flex;
+        margin-left: 40%;
+        margin-top: 50px;
         flex-direction: column;
         font-size: x-large;
         font-family: 'arial narrow';
         text-align: right;
+        
         
       
         
     }
 
     #cite {
-        margin-top: 10px;
-        font-size: large;
+        margin-top: 15px;
+        font-size: medium;
+        font-weight: lighter;
 
     }
 
@@ -129,7 +133,8 @@ html, body {
 
     
     #greencharli {
-    width: 470px   
+    width: 470px  
+     
 }
 
 #album1 {
