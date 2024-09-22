@@ -97,22 +97,31 @@ html, body {
     
     #page1title {
         width: 100%;               
-        max-width: 400px;           
+        max-width: 400px;  
+        margin-right: 40px;          
     }
     
     #page1title img {
         max-width: 100%;            
-        height: auto;               
+        height: auto; 
+                     
     }
 
+    .greencharli_quote_container {
+        display: flex;                   /* Enable flexbox */
+        justify-content: space-between;  /* Distribute space between items */
+        align-items: flex-start;         /* Align items to the top */
+    }
     #blockquote {
         display: flex;
+        justify-content: flex-end;
         margin-left: 40%;
         margin-top: 50px;
         flex-direction: column;
         font-size: x-large;
         font-family: 'arial narrow';
         text-align: right;
+        
         
         
       
@@ -189,6 +198,7 @@ html, body {
     text-align: justify;
     column-count: 2;          /* Creates 2 columns */
     column-gap: 30px;         /* Space between columns */
+    margin-right: 40px;
     
 }
 
