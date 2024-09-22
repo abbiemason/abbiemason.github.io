@@ -138,7 +138,7 @@ html, body {
 }
 
 .image-column {
-    flex-basis: 50%;             /* Image column takes up 30% of the width */
+                /* Image column takes up 30% of the width */
     display: flex;
     flex-direction: column;      /* Stack images vertically */
     gap: 30px;                   /* Adds space between the images */
@@ -147,10 +147,12 @@ html, body {
 .image-column img {
     width: 100%;                 /* Make images responsive */
     height: auto;                /* Maintain aspect ratio */
+    margin-bottom: 0px;
 }
 
 .article-content {
-    flex-basis: 70%;             /* Article content takes up 70% of the width */
+    display: flex;
+    flex-direction: row;
 }
 
 .article-content {
@@ -159,22 +161,18 @@ html, body {
     text-align: justify;
     column-count: 2;          /* Creates 2 columns */
     column-gap: 30px;         /* Space between columns */
-    align-items: flex-start;
+    
 }
 
 .article-content p { 
-    margin-right: 90px;            /* Remove default margin to better control spacing */
+    margin-bottom: 0px;
 }
 
 
-#album1, #inline-paragraph {
-    display: inline-block;         /* Allow them to sit next to each other */
-    vertical-align: top;           /* Aligns the top edges */
-    margin-right: 20px;            /* Space between image and paragraph */
-    align-items: flex-start;
+.article-content {
+    max-height: 500px;
+    width: 1000px;
 }
-
-
 
 
 
