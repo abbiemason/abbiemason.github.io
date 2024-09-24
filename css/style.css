@@ -379,8 +379,8 @@ font-family: 'arial narrow', Arial, Helvetica, sans-serif;
 }
 
 #page3charli {
-    width: 500px;
-
+    width: 600px;
+    height: auto;
 }
 
 #trends_title {
@@ -389,7 +389,7 @@ font-family: 'arial narrow', Arial, Helvetica, sans-serif;
     font-size: xxx-large;
     text-align: left;
     margin-bottom: 0px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 
@@ -401,6 +401,7 @@ font-family: 'arial narrow', Arial, Helvetica, sans-serif;
     font-size: x-large;
 
 }
+
 
 #point1title {
     margin-bottom: 0px;
@@ -467,33 +468,184 @@ font-family: 'arial narrow', Arial, Helvetica, sans-serif;
     margin-bottom: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*PAGE4*/
 
 #page4 {
-    background-color: #0400ae;
+    background-color: #1002ac;
+}
+.parent4 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;              
+    flex-wrap: wrap;           
+}
+
+#page4title {
+    width: 100%;               
+    max-width: 400px;  
+    margin-right: 40px;          
 }
 
 
+#page4title img {
+    max-width: 100%;            
+    height: auto; 
+                 
+}
+
+#gif {
+    display: flex;
+    margin: auto;
+    width: 600px;
+    margin-top: 100px;
+}
+
+#autumntitle {
+    margin-top: 200px;
+    margin-left: 40px;
+    font-family: 'arial narrow', Arial, Helvetica, sans-serif;
+    font-size: xxx-large;
+    text-align: left;
+}
+
+#sweatsummarytitle {
+    margin-left: 40px;
+    font-family: 'arial narrow', Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    text-align: left; 
+}
 
 
+#sweatsummary{
+    margin-left: 40px;
+    width: 94%;
+    text-align: justify;
+    font-family: 'arial narrow', Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#bratautumnlist {
+    margin-left: 40px;
+    width: 75%;
+    text-align: justify;
+    font-family: 'arial narrow', Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+#point1title {
+    margin-bottom: 0px;
+    margin-top: 60px;
+}
+
+#point1-3 {
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+#point2title-3 {
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+#point2-3 {
+    margin-top: 15px;
+}
+
+#point3title-3 {
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+#point3-3 {
+    margin-top: 15px;
+}
+
+.content-wrapper4 {
+    display: flex;               /* Creates a horizontal layout */
+    gap: 30px;                   /* Adds space between the image column and the article */
+    
+}
+
+.image-column4 {
+    display: flex;
+    flex-direction: column;      /* Stack images vertically */
+
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.image-column4 img {
+    display: flex;
+    align-items: flex-end;
+    width: 300px;                 /* Make images responsive */
+    height: auto;                /* Maintain aspect ratio */
+    
+    
+}
+
+.article-content4 {
+    font-family: 'arial narrow', Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    text-align: justify;       
+    margin-right: 40px;
+   
+    
+}
+
+.article-content4  { 
+    margin-bottom: 30px;
+}
+
+
+#tourdatessection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #dd0000;
+    font-family: 'arial narrow', Arial, Helvetica, sans-serif;
+    font-size: x-large;   
+    margin-top: 30px;
+}
+
+#tourdatessection > ul {
+    list-style-type: none; 
+    margin-top: 30px;
+}
+
+
+#setlistsection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #dd0000;  
+    font-family: 'arial narrow', Arial, Helvetica, sans-serif;
+    font-size: x-large;  
+    margin-top: 30px;  
+    
+}
+
+#point3-3 {
+    display: flex;
+    margin: auto;
+    width: 500px;
+    margin-top: 30px;
+
+}
+
+#setlistsection > ol {
+
+    list-style-position: inside;
+    padding-left: 0px;
+}
+
+#sweatgif {
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+}
 
 
 
