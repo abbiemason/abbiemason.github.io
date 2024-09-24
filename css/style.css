@@ -81,6 +81,16 @@ html, body {
     background-color: #de0101;
 }
 
+#entryfooter {
+    text-align: center;
+    font-family: 'arial narrow', Arial, Helvetica, sans-serif;
+    margin-top: 700px;
+    margin-bottom: 30px;
+    font-size: x-small;
+}
+
+
+
 /*PAGE1*/
 
 #page1 {
@@ -152,21 +162,20 @@ html, body {
 }
 
 .content-wrapper {
-    display: flex;               /* Creates a horizontal layout */
-    gap: 30px;                   /* Adds space between the image column and the article */
+    display: flex;             
+    gap: 30px;                   
     align-items: flex-start;
 }
 
 .image-column {
-                /* Image column takes up 30% of the width */
     display: flex;
-    flex-direction: column;      /* Stack images vertically */
-    gap: 30px;                   /* Adds space between the images */
+    flex-direction: column;     
+    gap: 30px;                 
 }
 
 .image-column img {
-    width: 100%;                 /* Make images responsive */
-    height: auto;                /* Maintain aspect ratio */
+    width: 100%;                 
+    height: auto;                
     margin-bottom: 0px;
 }
 
@@ -192,6 +201,14 @@ html, body {
 .article-content {
     max-height: 500px;
     width: 1000px;
+}
+
+#footer1 {
+    text-align: center;
+    font-family: 'arial narrow', Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: x-small;
 }
 
 
@@ -316,15 +333,15 @@ font-family: 'arial narrow', Arial, Helvetica, sans-serif;
 }
 
 .content-wrapper2 {
-    display: flex;               /* Creates a horizontal layout */
-    gap: 30px;                   /* Adds space between the image column and the article */
+    display: flex;              
+    gap: 30px;                   
     
 }
 
 .image-column2 {
     display: flex;
-    flex-direction: column;      /* Stack images vertically */
-    gap: 30px;                   /* Adds space between the images */
+    flex-direction: column;      
+    gap: 30px;                   
     margin-right: 40px;
     margin-bottom: 30px;
     margin-top: 0px;
@@ -333,8 +350,8 @@ font-family: 'arial narrow', Arial, Helvetica, sans-serif;
 .image-column2 img {
     display: flex;
     align-items: flex-end;
-    width: 300px;                 /* Make images responsive */
-    height: auto;                /* Maintain aspect ratio */
+    width: 300px;                 
+    height: auto;                
     
     
 }
@@ -352,6 +369,13 @@ font-family: 'arial narrow', Arial, Helvetica, sans-serif;
     margin-bottom: 30px;
 }
 
+#footer2 {
+    text-align: center;
+    font-family: 'arial narrow', Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: x-small;
+}
 /*PAGE3*/
 
 #page3 {
@@ -432,15 +456,15 @@ font-family: 'arial narrow', Arial, Helvetica, sans-serif;
 }
 
 .content-wrapper3 {
-    display: flex;               /* Creates a horizontal layout */
-    gap: 30px;                   /* Adds space between the image column and the article */
+    display: flex;               
+    gap: 30px;                   
     
 }
 
 .image-column3 {
     display: flex;
-    flex-direction: column;      /* Stack images vertically */
-    gap: 30px;                   /* Adds space between the images */
+    flex-direction: column;      
+    gap: 30px;                   
     margin-right: 40px;
     margin-bottom: 30px;
     margin-top: 130px;
@@ -449,8 +473,8 @@ font-family: 'arial narrow', Arial, Helvetica, sans-serif;
 .image-column3 img {
     display: flex;
     align-items: flex-end;
-    width: 300px;                 /* Make images responsive */
-    height: auto;                /* Maintain aspect ratio */
+    width: 300px;                 
+    height: auto;                
     
     
 }
@@ -466,6 +490,14 @@ font-family: 'arial narrow', Arial, Helvetica, sans-serif;
 
 .article-content3 p { 
     margin-bottom: 30px;
+}
+
+#footer3 {
+    text-align: center;
+    font-family: 'arial narrow', Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: x-small;
 }
 
 /*PAGE4*/
@@ -563,14 +595,14 @@ font-family: 'arial narrow', Arial, Helvetica, sans-serif;
 }
 
 .content-wrapper4 {
-    display: flex;               /* Creates a horizontal layout */
-    gap: 30px;                   /* Adds space between the image column and the article */
+    display: flex;               
+    gap: 30px;                   
     
 }
 
 .image-column4 {
     display: flex;
-    flex-direction: column;      /* Stack images vertically */
+    flex-direction: column;      
 
     margin-right: 40px;
     margin-bottom: 30px;
@@ -580,8 +612,8 @@ font-family: 'arial narrow', Arial, Helvetica, sans-serif;
 .image-column4 img {
     display: flex;
     align-items: flex-end;
-    width: 300px;                 /* Make images responsive */
-    height: auto;                /* Maintain aspect ratio */
+    width: 300px;                 
+    height: auto;                
     
     
 }
@@ -645,8 +677,16 @@ font-family: 'arial narrow', Arial, Helvetica, sans-serif;
     display: flex;
     margin: auto;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
+#footer4 {
+    text-align: center;
+    font-family: 'arial narrow', Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: x-small;
+}
 
 
 
